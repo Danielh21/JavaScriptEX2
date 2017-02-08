@@ -19,7 +19,7 @@ rest value 6 is a: ${obj.constructor.name}
 };
 
 
-// exports.func = function(x,y,bool,z,stringS,arrayNum,date, obj){
+// module.exports.func = function(x,y,bool,z,stringS,arrayNum,date, obj){
 //     return `
 // Sum: ${x + y}
 // rest value 1 is a: ${bool.constructor.name}
