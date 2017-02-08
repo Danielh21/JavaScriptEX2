@@ -1,0 +1,18 @@
+a2) Why does this work?:
+var odds = evens. map (v => v+ 1 );
+
+-- Ecma2015 supports arrow functions where you can just use ()=> {//dostuff} instead of function(){ //dostuff};
+
+
+
+var odds = evens. map (v => {
+v+ 1
+});
+// dosen't work because of "implicted Return" which only works with oneliners! So, this will work:
+ var odds = evens. map (v => v+ 1 );
+ or this:
+ var odds = evens. map (v => {
+ return v+ 1
+ });
+
+
